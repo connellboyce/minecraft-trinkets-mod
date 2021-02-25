@@ -1,21 +1,24 @@
 #Anything that is optional which you are not using, just delete that line. You can also delete any of the '#comments'
 
-modLoader="javafml"
-loaderVersion="[35,)"
-license="All rights reserved"
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory
+license="All rights reserved" #mandatory https://choosealicense.com/
+issueTrackerURL="http://my.issue.tracker/" #optional
 
-[[mods]]
-modId="connell_trinket_mod"
-version="0.0.1"
-displayName="Connell's Trinkets"
-displayURL="http://github.com/connellboyce"
-logoFile=""
-credits="Thanks for playing!"
-authors="Connell Boyce"
+[[mods]] #mandatory
+modId="connell_trinkets_mod" #mandatory
+version="1.0.0" #mandatory
+displayName="Trinkets Mod" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="examplemod.png" #optional
+credits="The credits for your mod." #optional
+authors="The authors of your mod." #optional
 description='''
-This is a beginner mod featuring various little things I learn how to code.
-With time, there may be some kind of relation between items, but for now it is for practice!
-'''
+A multi-line description of your mod.
+Hello!
+''' #mandatory
+
 
 [[dependencies.connell_trinket_mod]]
     modId="forge"
