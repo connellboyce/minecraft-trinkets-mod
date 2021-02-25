@@ -1,0 +1,32 @@
+#Anything that is optional which you are not using, just delete that line. You can also delete any of the '#comments'
+
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All rights reserved"
+
+[[mods]]
+modId="connell_trinket_mod"
+version="0.0.1"
+displayName="Connell's Trinkets"
+displayURL="http://github.com/connellboyce"
+logoFile=""
+credits="Thanks for playing!"
+authors="Connell Boyce"
+description='''
+This is a beginner mod featuring various little things I learn how to code.
+With time, there may be some kind of relation between items, but for now it is for practice!
+'''
+
+[[dependencies.connell_trinket_mod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.connell_trinket_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
