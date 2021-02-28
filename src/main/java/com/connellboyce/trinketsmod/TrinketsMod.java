@@ -1,5 +1,6 @@
 package com.connellboyce.trinketsmod;
 
+import com.connellboyce.trinketsmod.core.init.BlockInit;
 import com.connellboyce.trinketsmod.core.init.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,7 @@ public class TrinketsMod
         bus.addListener(this::setup);
 
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
